@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script !src="">
+    let a=parseInt(prompt("Nhập vào điểm bài kiểm tra: "));
+    let b=parseInt(prompt("Nhập vào điểm thi giữa kỳ: "));
+    let c=parseInt(prompt("Nhập vào điểm thi giữa kỳ: "));
+    let dtb = (a*0.2 + b*0.3 + c*0.5);
+    if (dtb<4) {
+        document.write("Học sinh có học lực yếu");
+    } else if (dtb<6.5) {
+        document.write("Học sinh có học lực trung bình");
+    } else if (dtb < 8) {
+        document.write("Học sinh có học lực khá");
+    } else {
+        document.write("Học sinh có học lực giỏi");
+    }
+</script>
+</body>
+</html>
